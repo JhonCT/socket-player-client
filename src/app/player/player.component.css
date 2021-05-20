@@ -1,0 +1,26 @@
+.player{
+    border: 1px solid black;
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+
+.id-player{
+    border: 1px solid green;
+    display: flex;
+    gap:10px;
+}
+
+.balance-general{
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.balance-general .monto{
+    font-size: 30px;
+}
