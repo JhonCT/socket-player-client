@@ -9,7 +9,7 @@ export class SocketService {
 
   io = io("http://localhost:55555", {
     autoConnect: true
-  })
+  });
 
   constructor(
     private http: HttpClient,

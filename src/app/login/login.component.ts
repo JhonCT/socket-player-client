@@ -21,8 +21,10 @@ export class LoginComponent implements OnInit {
       password: this.password,
     };
 
-    this.socketService.login({ body }).subscribe(res => res);
 
-    this.socketService.io.emit('connection', {});
+
+    this.socketService.io.emit('join-room', this.username);
+
+
   }
 }
