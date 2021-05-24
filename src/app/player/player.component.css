@@ -1,26 +1,20 @@
-.player{
-    border: 1px solid black;
-    width: 400px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    padding: 20px;
+.player {
+    width: 100vh;    
 }
 
-.id-player{
-    border: 1px solid green;
-    display: flex;
-    gap:10px;
+.id-player {
+
 }
 
-.balance-general{
-    border: 1px solid green;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.balance-general {
+
 }
 
-.balance-general .monto{
-    font-size: 30px;
+.monto {
+
+}
+
+.balance {
+    font-size: 20px;
+    font-weight: bold;
 }

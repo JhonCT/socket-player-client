@@ -7,9 +7,9 @@ import { HttpClient } from '@angular/common/http';
 })
 export class SocketService {
 
-  io = io("http://localhost:55555", {
-    autoConnect: true
-  });
+  // io = io("http://localhost:55555", {
+  //   autoConnect: true
+  // });
 
   constructor(
     private http: HttpClient,
